@@ -1,0 +1,1 @@
+Voir dans la catégorie Release avec la version 2.6.0.0 pour télécharger l'original + avoir Visual Studio 2019 (Pro recommandé + fichier pour les paramètres (juste télécharger, installer, et faire le projet à votre manière))
