@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LUDJVStore.exe" version="2.4.0.0" publicKeyToken="b865585aa3985e85" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LUDJVStore" version="2.4.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LUDJVStore.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+             nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            La spécification de l'élément requestedExecutionLevel désactive la virtualisation de fichiers et du Registre. 
+            Supprimez cet élément si votre application a besoin de la virtualisation pour des
+            raisons de compatibilité descendante.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LUDJVStore.exe" size="176543728">
+      <assemblyIdentity name="LUDJVStore" version="2.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v+qQTam4xkyrEGlB0gBzBJTQTuC6+2V1UVxGIADeZ7A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LUDJVStore.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rO4mjoMPTzC1RdE+BMvf0lfywGmtOsKfE96n+SRa584=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Liste des versions de Windows pour lesquelles cette application a été testée,
+           et sur lesquelles elle doit fonctionner. Décommentez éléments appropriés,
+           et Windows va automatiquement sélectionner l'environnement le plus compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-2UF0REJ\Grégory" issuerKeyHash="9811ffb740e50cd6a2d628971a4e29fe0df80d0a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>knb23xdCoVKqECGg/9YXBRAyhnveIEoU6ucTHFI+acc=</DigestValue></Reference></SignedInfo><SignatureValue>XAjyMC88iiG2Mc0tKHkIlMFRamVOI5+esYFbzg3Zreg4StU6dIFDNRD1gJ07nx4mX6Tj6MYMldbVHhulrMTRJ80p9ydavJmx6h0kr7K5oDIq4x7b1Hd3rhq/FFZi4BpTSPR9RCJOyJchROBORG636vdexWIX1E1Dra3UTxBcBTI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l/dHwLV0Icv16f+yFQcW0bALtc5IMEMKEdNRWZ7/ir9UyWhAcnxTgnIN2p76DPeiXhN2mBOHRU6gEMGU9pgC7IZHBiQY12NTKJapadeQEK6JpBTAcMHjd5WdHodon9YgZLYChcwrCWhiBEbyE0k1tC2eVqV3bD/BCG8XNqFJ3Hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c7693e521c13e7ea144a20de7b8632100517d6ffa02110aa52a14217dff67692" Description="" Url=""><as:assemblyIdentity name="LUDJVStore.exe" version="2.4.0.0" publicKeyToken="b865585aa3985e85" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2UF0REJ\Grégory</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lNz05BID1ClbfT0YNvtm6i4Jmpi9io++vLhxlGlregM=</DigestValue></Reference></SignedInfo><SignatureValue>CmJ6AAfd43KEUxgii04i4hHp07+fNPdXdYdMC8UGHWRZG4jZkaqH9TFMKAC6n37taDCKibUPVLmdAgTADBJpSSpbwryorG6H8zXeJy6qQ2PhO5AqZRaxndgUfJbgi2xR6koHG7vY/SpehjtHL7Hn2TXqAtifikB2L5uGAuXLZEA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l/dHwLV0Icv16f+yFQcW0bALtc5IMEMKEdNRWZ7/ir9UyWhAcnxTgnIN2p76DPeiXhN2mBOHRU6gEMGU9pgC7IZHBiQY12NTKJapadeQEK6JpBTAcMHjd5WdHodon9YgZLYChcwrCWhiBEbyE0k1tC2eVqV3bD/BCG8XNqFJ3Hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQSHIGQccWrJpOwSDU/grFqzANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtADIAVQBGADAAUgBFAEoAXABHAHIA6QBnAG8AcgB5MB4XDTIxMDcyNjE5MjM0NFoXDTIyMDcyNzAxMjM0NFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQAyAFUARgAwAFIARQBKAFwARwByAOkAZwBvAHIAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAl/dHwLV0Icv16f+yFQcW0bALtc5IMEMKEdNRWZ7/ir9UyWhAcnxTgnIN2p76DPeiXhN2mBOHRU6gEMGU9pgC7IZHBiQY12NTKJapadeQEK6JpBTAcMHjd5WdHodon9YgZLYChcwrCWhiBEbyE0k1tC2eVqV3bD/BCG8XNqFJ3HkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBUnCEmS6ZxncpT+I7zBK/rB0Sah+EkHvE4EU3Lebrpla4iTfqc5R/lMmHiIhWILUsVpG6nk5P18ApRo8pL0avEqAmFN0d5/5fJ3tzSpNoT8TzYmYov/HjDZ+0u4KOxfRRYzj3oO5JAf/91QhAzQfjZcGxqRkDp7t9V/EnzP7iIug==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
